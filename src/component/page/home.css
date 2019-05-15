@@ -1,0 +1,9 @@
+.Minion {
+    background-image: url(./.jpg);
+    text-align: center;
+    padding:20px;
+    
+  }
+*{
+    background-color: #bdbdbd;
+}

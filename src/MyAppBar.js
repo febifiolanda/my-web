@@ -19,6 +19,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 
+
 const styles = theme => ({
   root: {
     width: '100%',
@@ -89,7 +90,7 @@ const styles = theme => ({
   },
 });
 
-class PrimarySearchAppBar extends React.Component {
+class SearchAppBar extends React.Component {
   state = {
     anchorEl: null,
     mobileMoreAnchorEl: null,
@@ -213,8 +214,8 @@ class PrimarySearchAppBar extends React.Component {
   }
 }
 
-PrimarySearchAppBar.propTypes = {
+SearchAppBar.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(PrimarySearchAppBar);
+export default withStyles(styles)(SearchAppBar);
